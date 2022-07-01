@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0
+}
+main{
+    height:100vh;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:30% 30%;
+    grid-template-areas:"box1 box2"
+    "box3 box3";
+}
+.box1{
+background-color:salmon;
+grid-area:box1;
+align-self: end;
+}
+.box2{
+background-color:cyan;
+grid-area:box2;
+
+}
+.box3{
+background-color:greenyellow;
+grid-area:box3;
+
+}
